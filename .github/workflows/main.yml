@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          repository: yaotthaha/sing-box-pub
+          repository: dengyifenzhong/sing-box-pub
           ref: dev-yaott
       - name: with_clash_ui
         id: dashboard
@@ -189,7 +189,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          repository: yaotthaha/sing-box-pub
+          repository: dengyifenzhong/sing-box-pub
           ref: dev-next-yaott
       - name: with_clash_ui
         id: dashboard
