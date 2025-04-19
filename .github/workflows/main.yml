@@ -29,7 +29,7 @@ jobs:
         with:
           fetch-depth: 0
           repository: dengyifenzhong/sing-box-pub
-          ref: dev-yaott
+          ref: dev-next
       - name: with_clash_ui
         id: dashboard
         run: |  
